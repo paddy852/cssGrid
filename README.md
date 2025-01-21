@@ -41,4 +41,16 @@ Understanding the core components of CSS Grid is essential:
 
 ### Visual Representation
 
-Here’s how these terms relate to each other:
+`Here’s how these terms relate to each other:
+
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.item {
+background-color: lightblue;
+text-align: center;
+padding: 20px;
+}`
